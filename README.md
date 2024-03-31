@@ -36,17 +36,16 @@ K 个一组翻转链表（ LeetCode 25 ）✨
 剑指 Offer 51. 数组中的逆序对  
 合并 K 个升序链表（LeetCode 23）  
 合并两个有序数组( LeetCode 88 )  
-颜色分类( LeetCode 75 )（✨）  
-部分排序 （面试题 16）  
+颜色分类( LeetCode 75 )✨  
 计算右侧小于当前元素的个数 ( LeetCode 315)  
 有序数组的平方( LeetCode 977 )  
-盛最多水的容器(LeetCode 11)（✨）  
-两数之和（LeetCode 1）（✨）  
+盛最多水的容器(LeetCode 11)✨  
+两数之和（LeetCode 1）✨  
 分发饼干（ LeetCode 455 ）  
 柠檬水找零（ LeetCode 860 ）  
 用最少数量的箭引爆气球（ LeetCode 452 ）  
 移掉 K 位数字（ LeetCode 402 ）  
-跳跃游戏（ LeetCode 55 ）（✨）  
+跳跃游戏（ LeetCode 55 ）✨  
 摆动序列（ LeetCode 376 ）  
 三数之和（LeetCode 15）  
 最接近三数之和（LeetCode 16）  
