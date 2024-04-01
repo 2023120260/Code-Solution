@@ -11,7 +11,7 @@
 //把C++捡回来写的第一道题，用的头插法暴力解了，可以优化很多，但是先交了。
 //后面再想进阶
 //进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
-//解法一：头插法-暴力 9ms 11.6MB
+//解法一：头插法-暴力 9ms 11.6MB 时间O(n) 空间O(n)
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -28,7 +28,7 @@ public:
         return R->next;
     }
 };
-//解法二：头插法-优化 4ms 11.4MB
+//解法二：头插法-优化 4ms 11.4MB 时间O(n) 空间O(1)
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -46,6 +46,7 @@ public:
         return R->next;
     }
 };
+//解法三：递归法 4ms 11.5MB 时间O(n) 空间O(n)
 //研究了一下题解，原来上面写的解法就是迭代解法。下面研究下递归解法。  
 //根据递归题解尝试写出来了，刚开始不理解的地方在于为什么传回指针是R而不是head。
 //尝试了一下理解了，经过递归翻转之后，head指向的1会成为当前链表的最后一个结点，也就是说如果是1、2、3、4、5的话，head只会返回1。
