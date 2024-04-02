@@ -87,5 +87,42 @@ public:
         return NULL;//遍历完AB找不到相同的值返回NULL
     }
 };
-
-
+//看了看双指针的操作，能把空间复杂度压缩到O(1)，方法很巧妙
+//两个指针分别遍历A+B和B+A就可以消除两个链表长度不一致的误差，当两个指针重合时其地址就是应该返回的地址。
+//解法二：双指针法 36ms 16.7MB 时间O(m+n) 空间O(1) 长度：A-m B-n
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode* A = headA;
+        ListNode* B = headB;
+        if(A==NULL||B==NULL)//当A||B为空时，不可能有相交的结点，直接返回NULL
+        {
+            return NULL;
+        }
+        while(A!=B)//A遍历完自己去遍历B，B遍历完自己去遍历A，当两个直接相等时退出循环
+        {
+            if(A == NULL)
+            {
+                A = headB;
+            }
+            else
+            {
+                A = A->next;
+            }
+            if(B == NULL)
+            {
+                B = headA;
+            }
+            else
+            {
+                B = B->next;
+            }
+            /*
+            循环体内部的判断语句可以用三目运算符来简化书写
+            A = A == NULL ? headB : A->next;
+            B = B == NULL ? headA : B->next;
+                */
+        }
+        return A;//若找到了则为那个结点，没找到则为NULL
+    }
+};
