@@ -64,27 +64,27 @@ public:
     }
 };
 //终于搞对了
-//解法一：哈希集合法 39ms 20.39MB 时间O(2n) 空间O(1)
+//解法一：哈希集合法 39ms 20.39MB 时间O(m+n) 空间O(m) 长度：A-m B-n
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_set<ListNode*> hashset;
+        unordered_set<ListNode*> hashset;//建立指针哈希表
         ListNode* l = headA;
         while(l!=NULL)
         {
-            hashset.insert(l);
+            hashset.insert(l);//遍历A，把每个结点的地址存入哈希表
             l = l->next;
         }
         l = headB;
         while(l!=NULL)
         {
-            if(hashset.count(l))
+            if(hashset.count(l))//遍历B，当B中有和哈希表中一样的地址出现时返回其地址
             {
                 return l;
             }
             l = l->next;
         }
-        return NULL;
+        return NULL;//遍历完AB找不到相同的值返回NULL
     }
 };
 
