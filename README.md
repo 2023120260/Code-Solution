@@ -3,7 +3,7 @@
 - [ ] 链表基础知识  
 - [x] 反转链表（ LeetCode 206 ）  
 - [x] 相交链表（ LeetCode 160 ）  
-- [ ] 合并两个有序链表 （ LeetCode 21 ）✨  
+- [x] 合并两个有序链表 （ LeetCode 21 ）✨  
 - [ ] 分隔链表 （ LeetCode 86 ）  
 - [ ] 环形链表 II （ LeetCode 142 ）✨  
 - [ ] 反转链表 II （ LeetCode 92 ）✨  
