@@ -5,7 +5,7 @@ C++暂时搁置，主攻Java实现中。
 - [x] 反转链表（ LeetCode 206 ）  
 - [x] 相交链表（ LeetCode 160 ）  
 - [x] 合并两个有序链表 （ LeetCode 21 ）✨  
-- [ ] 分隔链表 （ LeetCode 86 ）  
+- [x] 分隔链表 （ LeetCode 86 ）  
 - [ ] 环形链表 II （ LeetCode 142 ）✨  
 - [ ] 反转链表 II （ LeetCode 92 ）✨  
 - [ ] 复制带随机指针的链表（ LeetCode 138 ）✨  
