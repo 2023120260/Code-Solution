@@ -6,9 +6,9 @@ C++暂时搁置，主攻Java实现中。
 - [x] 相交链表（ LeetCode 160 ）  
 - [x] 合并两个有序链表 （ LeetCode 21 ）✨  
 - [x] 分隔链表 （ LeetCode 86 ）  
-- [ ] 环形链表 II （ LeetCode 142 ）✨  
-- [ ] 反转链表 II （ LeetCode 92 ）✨  
-- [ ] 复制带随机指针的链表（ LeetCode 138 ）✨  
+- [x] 环形链表 II （ LeetCode 142 ）✨  
+- [x] 反转链表 II （ LeetCode 92 ）✨  
+- [x] 复制带随机指针的链表（ LeetCode 138 ）✨  
 ## 栈
 - [ ] 栈基础知识  
 - [ ] 有效的括号（ LeetCode 20 ）  
